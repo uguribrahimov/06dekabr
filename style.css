@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(29, 8, 29);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    }
+    
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+    }
+    .header__nav { 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        padding: 30px 70px;}
+    .header__ul { 
+        list-style: none; 
+        color: white; 
+        display: flex;
+        align-items: center; 
+        }
+    
+        a{
+        text-decoration: none; 
+        color: white; }
+    .header__button{
+        background-color: rgb(29, 8, 29); 
+        padding: 5px 25px;
+        border-radius: 10px;
+        border: solid purple;}
+    
+    .banner__left__title{font-size: 60px; 
+    }
+    .banner__left__description{
+    
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 100px;
+        
+    }
+    .banner__left__button {
+        padding: 15px 35px;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        background: linear-gradient(to left, rgb(169, 54, 175) 10%, 30%, rgb(182 227 242) 90%);
+        border: none;
+        margin-top: 20px;
+        box-shadow: 2px 2px 20px #ffffffab;
+    }
+    .footer {
+        padding: 65px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #29292c;
+        margin: 100px  0 0  0;
+        }
+        .footer__ul{
+            width: 100%;
+        }
+    ul {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        list-style: none;
+        gap: 40px;}
+    .img {
+        width: 170px;}
+    
+    
+    
+    
+    
+        .banner__right{
+            
+position: relative;
+            
+width: 500px;
+        }
+    
+        .banner__img{
+
+position: absolute;
+
+left: 0;
+
+}
+    
+        .banner__img1{
+
+
+top: 11px;
+
+}
+        .banner__img2{
+            
+left: 20px;
+            
+            
+top: -27px;
+        }
+        .banner__img3{
+            
+left: 70px;
+            
+top: -27px;
+        }
+        .banner__img4{
+            
+left: 25px;
+        }
